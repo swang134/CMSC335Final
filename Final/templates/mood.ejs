@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Hello! You!</title>
+	<link rel="icon" type="image/x-icon" href="Logos/hello.png"> 
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway|Caveat Brush'>
+    <link rel="stylesheet" href='css/style.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="showcase" id="background3">
+		<header>
+			<h2><a href="/explore">HELLO! YOU!</a></h2>	
+            <div class="menu"> 
+                <ul class="social">
+                <li><a href="http://twitter.com/Shuyaowang1"><img src="Logos/twitter.png" alt=""></a></li>
+                <li><a href="http://www.facebook.com/Helloyouproject-107131141996504"><img src="Logos/facebook.png" alt=""></a></li>
+                <li><a href="http://www.instagram.com/shuyao14/"><img src="Logos/instagram.png" alt=""></a></li>
+              </ul></div>	
+		</header>
+        <div class="source">
+            <p>Developed by: Shuyao Wang, Image: <a href="https://www.pexels.com/photo/yellow-and-black-light-fixture-929661/">PEXELS</a></p> 
+        </div>
+	</div>
+	<div class="center">
+		<div class="text">
+			<h1>Find By Moods</h1>
+			<form action="/mood" method="post">
+				<label>Mood:</label>
+				<input list="moods" name="moods" required placeholder="Joy" id="long"> 
+	                    <datalist id="moods"> 
+	                        <option value="Joy"> 
+	                        <option value="Anticipation"> 
+	                        <option value="Trust"> 
+	                        <option value="Surprise"> 
+	                        <option value="Anger">
+							<option value="Sadness">  
+							<option value="Scare"> 
+							<option value="Disgust">
+	                   </datalist><br>
+				<input type="reset" value="CLEAN" id="orange"/>
+				<input type="submit" value="SUBMIT" id="pink"/>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

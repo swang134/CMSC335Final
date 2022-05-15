@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    margin-right: 8rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    letter-spacing: 6px;
+  }
+
+  h1,h2,h3,h5,h6,p{
+    color: white;
+  }
+
+  .showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-size: 1920px 1080px;
+  }
+
+  #background1{
+    background-image: url("../Logos/rainbow.jpg");
+  }
+  #background2{
+    background-image: url("../Logos/explore.jpg");
+  }
+  #background3{
+    background-image: url("../Logos/light.jpg");
+  }
+  #background4{
+    background-image: url("../Logos/search.jpg");
+  }
+  #background5{
+    background-image: url("../Logos/door.jpg");
+  }
+  #background6{
+    background-image: url("../Logos/house.jpg");
+  }
+  #background7{
+    background-image: url("../Logos/stair.jpg");
+  }
+  #background8{
+    background-image: url("../Logos/flower.jpg");
+  }
+
+
+  .showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text {
+    position: relative;
+    z-index: 10;
+  }
+
+  .text h2 {
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+  }
+  .text h3 {
+    font-size: 4em;
+    line-height: 1em;
+    letter-spacing: 2px;
+  }
+  .text h5 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 1000px;
+    letter-spacing: 2px;
+  }
+
+  .text h6 {
+    font-size: 1.2em;
+    font-weight: 200;
+    max-width: 1000px;
+  }
+  .text a {
+    display: inline-block;
+    font-size: 1.3em;
+    border: white 3px solid;
+    padding: 10px 30px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    margin-left: 15px;
+  }
+  .text a:hover {
+    letter-spacing: 6px;
+  }
+.text label{
+    color: white;
+    font-size: 20px;
+    line-height: 10px;
+}
+.text input{
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.text textarea{
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.text input[type=reset],input[type=submit]{
+    background-color: rgba(255,255,255,0);
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    border: black 2px solid;
+    border-radius: 5px;
+    margin-right: 55px;
+    padding: 15px;
+    width: 10rem;
+    letter-spacing: 3px;
+}
+
+.text input[type=reset]:hover,input[type=submit]:hover{
+    letter-spacing: 6px;
+}
+
+  .social {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social li {
+    list-style: none;
+  }
+  .social li a {
+    display: inline-block;
+    margin-right: 30px;
+    filter: invert(1);
+    transform: scale(0.5);
+  }
+  .social li a:hover {
+    transform: scale(0.8);
+  }
+
+  .re {
+    position: relative;
+    width: 500px;
+    height: 60px;
+    background-position:left;
+    z-index: 10;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .source { 
+    position: absolute; 
+    bottom: 1.5em; 
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: "Caveat Brush";
+    z-index: 20;
+  }
+
+  .source a {
+    font-weight: 150;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+  }
+
+  #pink:hover{
+    color: LightCoral;
+    border: LightCoral 3px solid;
+    background: white;
+    background-clip: padding-box;
+    letter-spacing: 3px;
+  }
+
+  #cyan:hover{
+    color: DodgerBlue;
+    border: DodgerBlue 3px solid;
+    background: white;
+    background-clip: padding-box;
+    letter-spacing: 3px;
+  }
+
+  #orange:hover{
+    color: orange;
+    border: orange 3px solid;
+    background: white;
+    background-clip: padding-box;
+    letter-spacing: 3px;
+  }
+
+  #green:hover{
+    color: green;
+    border: green 3px solid;
+    background: white;
+    background-clip: padding-box;
+    letter-spacing: 3px;
+  }
+
+  #black{
+    color:black;
+  }
+
+  #doubleblack{
+    background-color: rgba(255,255,255,0);
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    border: black 2px solid;
+    border-radius: 5px;
+    margin-right: 55px;
+    padding: 15px;
+    width: 10rem;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  #doubleblack:hover{
+      letter-spacing: 6px;
+  }
+
+  #long{
+    width: 16.5rem;
+  }
+
+  table{
+    border: none;
+  }
+  th{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 5px;
+    border: white 2px solid;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  td{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    border: white 3px solid;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  
+  #map {
+    height: 100%;
+  }
+  
+  .float {
+    border: 1px solid black;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -180px;
+    width: 350px;
+    z-index: 5;
+    background-color: rgba(255,255,255,0);
+    padding: 5px;
+    text-align: center;
+  }
+
+  #pos {
+    width: 225px;
+  }
+
+  .float input[type=text]{
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px;
+    margin: 5px;
+    font-family: "Raleway",sans-serif;
+  }
+
+  .float input[type=button]{
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+    margin: 5px;
+    font-family: "Raleway",sans-serif;
+  }
+
+
+
+
+
+  
+
+

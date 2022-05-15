@@ -1,0 +1,71 @@
+<!-- DO NOT MODIFY THIS FILE -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Hello! You!</title>
+	<link rel="icon" type="image/x-icon" href="Logos/hello.png"> 
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway|Caveat Brush'>
+    <link rel="stylesheet" href='css/style.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="showcase" id="background6">
+		<header>
+			<h2><a href="/explore">HELLO! YOU!</a></h2>		
+			<div class="menu"> 
+				<ul class="social">
+				<li><a href="http://twitter.com/Shuyaowang1"><img src="Logos/twitter.png" alt=""></a></li>
+				<li><a href="http://www.facebook.com/Helloyouproject-107131141996504"><img src="Logos/facebook.png" alt=""></a></li>
+				<li><a href="http://www.instagram.com/shuyao14/"><img src="Logos/instagram.png" alt=""></a></li>
+			  </ul></div>
+		</header>
+		<div class="source">
+            <p>Developed by: Shuyao Wang, Image: <a href="https://www.pexels.com/photo/low-angle-photography-3221217/">PEXELS</a></p> 
+        </div>
+		
+	</div>
+	
+		<div class="center">
+			<div class="text">
+				<h1>Make A New Post!</h1> <br><br>
+				<form action="/apply" method="post" id="form" >
+					<label><b>Title: </b><input type="text" name="title" placeholder="Hello You" required/></label>
+					<label><b>Weather: </b> <input type="text" name="weather" placeholder="Sunny" required></label><br>
+					<label><b>Location: </b> <input type="text" name="location" placeholder="New York" required></label>
+					<label><b>Mood: </b> </label>
+					<input list="moods" name="moods" required placeholder="Joy"> 
+	                    <datalist id="moods"> 
+	                        <option value="Joy"> 
+	                        <option value="Anticipation"> 
+	                        <option value="Trust"> 
+	                        <option value="Surprise"> 
+	                        <option value="Anger">
+							<option value="Sadness">  
+							<option value="Scare"> 
+							<option value="Disgust">
+	                   </datalist> 
+					<br>
+					<textarea rows="5" cols="78" name="records"></textarea></label>
+					<br><br>
+					<input type="reset" value="CLEAN"> 
+					<input type="submit" value="POST!">
+					<a href="/location" id="doubleblack">MAP &#127757;</a>
+				</form>
+			</div>
+		</div>
+		
+	<script>
+		document.getElementById('form').addEventListener('submit', (e) => checker(e))
+
+		function checker(e) {
+			if(!window.confirm("Are you sure you want to submit your application?\nYou will not be able to change your information once submitted"))
+				e.preventDefault()
+		}
+	</script>
+    
+</body>
+
+</html>
