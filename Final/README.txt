@@ -14,3 +14,5 @@ https://www.w3schools.com/html/html5_geolocation.asp
 
 YouTube Demo Video.
 https://youtu.be/zsqCjfGPXyM
+
+I do have problem to deploy my project on the Heroku, in the step of git push heroku testbranch:main and heroku master. When I running those command, my project directly exit(0)
